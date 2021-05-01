@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'FuenteNueva';
+    src: url('../fonts/NewTegomin-Regular.ttf');
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+header{
+    background-color: #cfcfcf;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.logo-header{
+    background-color: #f4f4f4;
+    height: 40px;
+    width: 120px;
+    margin-left: 20px;
+    align-self: center;
+    font-size: 40px;
+    text-align: center;
+}
+
+.menu-home{
+    align-content: center;
+    text-decoration: none;
+    align-self: center;
+}
+
+.menu-home ul{
+    list-style: none;
+}
+
+.menu-home ul li{
+    display: inline-block;
+    height: 15px;
+    width: 100px;
+    margin: 10px;
+    background-color: #fdfdfd;
+    text-align: center;
+}
+
+.contenedor-contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-contenido h1{
+    font-size: 70px;
+}
+
+.contenedor-principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.texto{
+    background-color: grey;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px black;
+    font-family: 'FuenteNueva';
+}
+
+.texto2{
+    background-color: grey;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 0px 10px black;
+    font-family: 'FuenteNueva';
+}
+
+.imagen{
+    background-color: yellow;
+    width: 40%;
+    margin-bottom: 20px;
+    background-image: url(https://i.pinimg.com/originals/82/31/16/82311665dc9323feb705a4ad9978bb0d.jpg);
+    background-size: 100%;
+}
+
+.footer{
+    background-color: grey;
+    height: 100px;
+    text-align: center;
+}
